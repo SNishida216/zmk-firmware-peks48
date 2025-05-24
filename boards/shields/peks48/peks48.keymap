@@ -15,20 +15,6 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <22 21>;
-        };
-
-        single_quotation {
-            bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <21 20>;
-        };
-    };
-
     macros {
         to_layer_0: to_layer_0 {
             compatible = "zmk,behavior-macro-one-param";

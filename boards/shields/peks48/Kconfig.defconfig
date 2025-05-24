@@ -1,7 +1,7 @@
-if SHIELD_TWEAKBIT_R
+if SHIELD_PEKS48_R
 
 config ZMK_KEYBOARD_NAME
-    default "tweakbit"
+    default "peks48"
 
 config ZMK_BLE
     default y
@@ -11,10 +11,10 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_TWEAKBIT_R || SHIELD_TWEAKBIT_L
+if SHIELD_PEKS48_R || SHIELD_PEKS48_L
 
 config NFCT_PINS_AS_GPIOS
-    default y
+    default n
 
 config ZMK_SPLIT
     default y
@@ -23,16 +23,16 @@ config INPUT
     default y
 
 config ZMK_POINTING
-    default y
+    default n
 
 config SPI
-    default y
+    default n
 
 config PMW3610
-    default y
+    default n
 
 config PMW3610_SWAP_XY
-    default y
+    default n
 
 config RGBLED_WIDGET_BATTERY_LEVEL_HIGH
     default 30
