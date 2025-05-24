@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: sayu-hub
-      url-base: https://github.com/sayu-hub
+    - name: powerenterley
+      url-base: https://github.com/PowerEnterKey
     - name: badjeff    # <-- PMW3610
       url-base: https://github.com/badjeff
     - name: caksoylar  # <-- RGB LED
