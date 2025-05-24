@@ -1,4 +1,4 @@
-#include "tweakbit.dtsi"
+#include "peks48.dtsi"
 
 ////追加文
 //&pinctrl {
